@@ -1,0 +1,23 @@
+﻿# VS Code local history
+.history/
+
+# KiCad temporary / user-specific files
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+~*.lck
+_autosave-*
+*.bak
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+\#auto_saved_files\#
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Reference project (not part of this repo)
+פרויקט עם הפדים כמו של המדריך/
