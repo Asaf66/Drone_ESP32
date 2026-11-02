@@ -1,0 +1,8 @@
+(version 1)
+# Joint solder pads on the leg/arm joints are no-net copper graphics drawn up to
+# (and across) the board edge on purpose. Exempt only graphic-vs-edge; tracks,
+# pads and zones are still checked against copper_edge_clearance (0.3mm).
+(rule "joint_pads_to_edge"
+  (constraint edge_clearance)
+  (severity ignore)
+  (condition "A.Type == 'Graphic' && B.Type == 'Graphic'"))
