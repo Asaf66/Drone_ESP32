@@ -593,7 +593,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,7 +611,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2378,7 +2378,7 @@
 	)
 	(text ">> Engine 2 - Front Left"
 		(exclude_from_sim no)
-		(at 98.298 84.074 0)
+		(at 98.806 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2493,6 +2493,18 @@
 		(uuid "46f88d06-6ba8-4431-aa55-d51f3e0126ba")
 	)
 	(junction
+		(at 218.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b182e52-7d46-45d7-8531-b6d76118aa5d")
+	)
+	(junction
+		(at 222.25 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "528819ac-61fd-4b11-a240-66d7094aaaf7")
+	)
+	(junction
 		(at 255.27 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2541,7 +2553,7 @@
 		(uuid "fba99a9b-4e58-48a4-910a-0b5344ea61c0")
 	)
 	(no_connect
-		(at 68.58 78.74)
+		(at 68.58 83.82)
 		(uuid "04b4e5ca-606d-413b-81a7-6462f6614680")
 	)
 	(no_connect
@@ -2756,6 +2768,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 50.8) (xy 218.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b035521-1818-47c1-aea4-bd24dfb96f00")
+	)
+	(wire
+		(pts
 			(xy 251.46 151.13) (xy 251.46 154.94)
 		)
 		(stroke
@@ -2766,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 49.53) (xy 218.44 54.61)
+			(xy 218.44 49.53) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 54.61) (xy 220.98 54.61)
+			(xy 224.79 54.61) (xy 222.25 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3066,6 +3088,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 50.8) (xy 218.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f61b94-7c33-4dad-9597-3eb249a02a27")
+	)
+	(wire
+		(pts
 			(xy 68.58 66.04) (xy 69.85 66.04)
 		)
 		(stroke
@@ -3186,6 +3218,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 54.61) (xy 220.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf5072d-40bf-4074-8119-24fa0d88f994")
+	)
+	(wire
+		(pts
 			(xy 68.58 119.38) (xy 74.93 119.38)
 		)
 		(stroke
@@ -3296,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 54.61) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2546c19-d642-424d-bccb-7fe463e73638")
+	)
+	(wire
+		(pts
 			(xy 205.74 54.61) (xy 208.28 54.61)
 		)
 		(stroke
@@ -3376,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 74.93 83.82)
+			(xy 68.58 78.74) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3506,7 @@
 		)
 		(uuid "9969e796-b0b0-460a-9cba-075cd1b78382")
 	)
-	(label "ESP_TX"
+	(label "ESP_RX"
 		(at 69.85 66.04 0)
 		(effects
 			(font
@@ -3504,7 +3556,7 @@
 		)
 		(uuid "e70400b8-3682-48a6-b4ad-88b0459173b6")
 	)
-	(label "ESP_RX"
+	(label "ESP_TX"
 		(at 69.85 71.12 0)
 		(effects
 			(font
@@ -3676,7 +3728,7 @@
 	)
 	(hierarchical_label "PWM_M2"
 		(shape output)
-		(at 74.93 83.82 0)
+		(at 74.93 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)

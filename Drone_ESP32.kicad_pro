@@ -105,7 +105,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -742,7 +742,7 @@
         "uuid": "13088f2b-99d3-46f0-8a12-4d8c4d77fadd"
       }
     ],
-    "used_designators": "J3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

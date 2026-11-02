@@ -2489,7 +2489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG40T10ER"
+		(property "Value" "1N4148W"
 			(at 179.578 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "SI2302"
 			(at 99.06 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +3063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "SI2302"
 			(at 222.25 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +3389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "SI2302"
 			(at 99.06 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +3476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG40T10ER"
+		(property "Value" "1N4148W"
 			(at 179.578 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "SI2302"
 			(at 222.25 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +3888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG40T10ER"
+		(property "Value" "1N4148W"
 			(at 56.388 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4211,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG40T10ER"
+		(property "Value" "1N4148W"
 			(at 56.388 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)

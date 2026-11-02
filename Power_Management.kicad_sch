@@ -746,7 +746,6 @@
 				(pin bidirectional line
 					(at 15.24 -2.54 180)
 					(length 5.08)
-					(hide yes)
 					(name "D-"
 						(effects
 							(font
@@ -877,7 +876,6 @@
 				(pin bidirectional line
 					(at 15.24 -5.08 180)
 					(length 5.08)
-					(hide yes)
 					(name "D+"
 						(effects
 							(font
@@ -4003,6 +4001,12 @@
 		(uuid "0bbbf6f9-5fa9-40f1-9a9f-8b112026a4be")
 	)
 	(junction
+		(at 54.61 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "147a4f2a-76d4-49f5-8569-f11d492a93fe")
+	)
+	(junction
 		(at 35.56 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4103,6 +4107,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec61353f-e51c-4546-9134-9ff89373c0f5")
+	)
+	(junction
+		(at 59.69 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c70b21-dcb9-4778-aeff-29b9509fdacf")
 	)
 	(junction
 		(at 87.63 54.61)
@@ -4216,6 +4226,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 74.93) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0b865c-d374-4946-aab4-353feff8fb2c")
+	)
+	(wire
+		(pts
 			(xy 68.58 132.08) (xy 71.12 132.08)
 		)
 		(stroke
@@ -4283,6 +4303,16 @@
 			(type default)
 		)
 		(uuid "3cc8c895-20b6-4985-8b7e-9bd71b976d4a")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d956080-ca58-4a90-8436-07958622db1d")
 	)
 	(wire
 		(pts
@@ -4436,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.85) (xy 64.77 69.85)
+			(xy 50.8 69.85) (xy 54.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4466,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 64.77 67.31)
+			(xy 50.8 67.31) (xy 59.69 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4483,6 +4513,16 @@
 			(type default)
 		)
 		(uuid "6a737ca7-7030-48c1-bb8b-791e149fb32a")
+	)
+	(wire
+		(pts
+			(xy 50.8 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd5e4bc-10cc-4140-a872-885928a3f86c")
 	)
 	(wire
 		(pts
@@ -4806,13 +4846,29 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 130.81) (xy 246.38 130.81)
+			(xy 229.87 130.81) (xy 238.76 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ade5d702-17f5-43ab-b533-bdee89afeeb8")
+	)
+	(wire
+		(pts
+			(xy 238.76 130.81) (xy 246.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266cfa61-a1a6-4bb1-af44-2b77c19fcfd3")
+	)
+	(junction
+		(at 238.76 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee052875-0d51-42f7-8aa3-4b605bb5b816")
 	)
 	(wire
 		(pts
@@ -4876,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc99f56c-2378-487f-8814-91dbac6078c8")
+	)
+	(wire
+		(pts
 			(xy 252.73 52.07) (xy 252.73 57.15)
 		)
 		(stroke
@@ -4916,6 +4982,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 69.85) (xy 64.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dcb5df-323b-42e1-9e9c-218d211bdf95")
+	)
+	(wire
+		(pts
 			(xy 64.77 82.55) (xy 64.77 85.09)
 		)
 		(stroke
@@ -4943,6 +5019,16 @@
 			(type default)
 		)
 		(uuid "cd680ba7-be82-4766-bd06-1c061398859f")
+	)
+	(wire
+		(pts
+			(xy 54.61 72.39) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce41735b-748f-48be-b0c7-21497b293b51")
 	)
 	(wire
 		(pts
@@ -8908,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Nidec_CAS-120A1"
+		(property "Value" "CAS-120A1"
 			(at 236.982 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9046,6 +9132,639 @@
 			(project "Drone_ESP32"
 				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "7ec7733d-b2f7-4a04-9cfb-5da9c3bf9842")
+		(property "Reference" "C17"
+			(at 153.162 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100u DNP"
+			(at 154.178 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 148.2852 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1decf57-790f-48f2-ac92-4004028c3ad1")
+		)
+		(pin "2"
+			(uuid "51b99433-34ef-4416-b6eb-94ef12250e8e")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 147.32 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "241e93bb-6eba-4c34-ac04-b499645eab28")
+		(property "Reference" "#PWR033"
+			(at 147.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 147.32 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 147.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5914076-3b93-49fb-b28d-b1b3eadc5856")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c34955-2a16-4924-a8e9-76de9164b5aa")
+		(property "Reference" "#PWR034"
+			(at 147.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a42bd38-fa8e-45d8-8bb0-035885d9ddaf")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffcab808-c3c9-4d7e-825a-31804c05dc0c")
+		(property "Reference" "C18"
+			(at 165.862 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 166.878 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 160.9852 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "963e8447-f439-4bb5-8e9b-9585a514bb5c")
+		)
+		(pin "2"
+			(uuid "af06aedd-4ea3-4dc4-bb58-dd0a4792817a")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 160.02 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbaf898f-ef77-4f5f-988d-5a5a5470a39c")
+		(property "Reference" "#PWR035"
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 160.02 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 160.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b2d8655-5e6a-46a6-883b-e5a1b09853f6")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "634a0e66-9dc9-4def-8661-74790ca25d58")
+		(property "Reference" "#PWR036"
+			(at 160.02 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6799379-b85e-4b16-8357-df8a97157747")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de3e926a-be14-4439-8ec7-75c4b2f8e672")
+		(property "Reference" "C19"
+			(at 244.602 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 245.618 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 239.7252 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a3aff79-085c-42f6-8c7c-be2333ca6e29")
+		)
+		(pin "2"
+			(uuid "94377618-3b9b-45df-bb2d-f48fc9bb0f6a")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55091447-5e2a-4b9a-a98d-716eede379a3")
+		(property "Reference" "#PWR037"
+			(at 238.76 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83046969-f266-45d1-bc2b-11b668f49315")
+		)
+		(instances
+			(project "Drone_ESP32"
+				(path "/13088f2b-99d3-46f0-8a12-4d8c4d77fadd/a1bb50ae-2c4b-44ec-b436-86186acccd87"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

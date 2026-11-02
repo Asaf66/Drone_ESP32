@@ -21,3 +21,15 @@ desktop.ini
 
 # Reference project (not part of this repo)
 פרויקט עם הפדים כמו של המדריך/
+
+# Local-only working folders (not part of the published project)
+v2/
+Rev1_as_ordered/
+v1_bringup/
+_restore_backup_*/
+gerber-*/
+Gerbers_Production/
+Assembly_Checklist*
+Drone_Custom.pretty/
+Drone_Custom.3dshapes/SW-SMD_K3-*
+fp-lib-table
